@@ -1,10 +1,15 @@
+import { BackButton } from "@/components/BackButton";
+
 export default function Page() {
   return (
     <>
-      <h1>
+      <BackButton />
+
+      <h1 className="py-10">
         3. When would you choose to use Edge Functions, Serverless Functions, or
         Edge Middleware with Vercel?
       </h1>
+
       <p>
         Serverless functions are great for a personal project, but Edge
         functions are a better choice if the highest level of performance is

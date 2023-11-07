@@ -2,15 +2,13 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
-      <header>
-        <h1 className="text-2x1">Jacob Martin's Take Home Exercise</h1>
-      </header>{" "}
-      <p>
+    <div className="text-center">
+      <h1 className="text-xl py-10">Jacob Martin's Take Home Exercise</h1>
+      <p className="py-6">
         Hi, I hope your day is going amazing! Below are links to all of the
         answers.
       </p>
-      <ul className="pl-4">
+      <ul>
         <li>
           <Link href="/1">Question One</Link>
         </li>
@@ -27,6 +25,6 @@ export default function Home() {
           <Link href="/5">Question Five</Link>
         </li>
       </ul>
-    </>
+    </div>
   );
 }
