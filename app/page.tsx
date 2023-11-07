@@ -4,8 +4,12 @@ export default function Home() {
   return (
     <>
       <header>
-        <h1 className="text-2x1">Todos</h1>
+        <h1 className="text-2x1">Jacob Martin's Take Home Exercise</h1>
       </header>{" "}
+      <p>
+        Hi, I hope your day is going amazing! Below are links to all of the
+        answers.
+      </p>
       <ul className="pl-4">
         <li>
           <Link href="/1">Question One</Link>
