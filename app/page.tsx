@@ -8,10 +8,10 @@ export default function Home() {
       </header>{" "}
       <ul>
         <Link href="/1">Question One</Link>
-        <Link href="/1">Question Two</Link>
-        <Link href="/1">Question Three</Link>
-        <Link href="/1">Question Four</Link>
-        <Link href="/1">Question Five</Link>
+        <Link href="/2">Question Two</Link>
+        <Link href="/3">Question Three</Link>
+        <Link href="/4">Question Four</Link>
+        <Link href="/5">Question Five</Link>
       </ul>
     </>
   );
