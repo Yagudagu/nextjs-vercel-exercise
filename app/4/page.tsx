@@ -14,6 +14,7 @@ export default function Page() {
         would be the same for everyone and dynamic redirects are an option if
         you need to change the redirects based on the interaction with the site.
         <br />
+        <br />
         For dynamic redirects, Edge Middleware or Functions would provide the
         fastest performance for redirecting, but Serverless Functions will also
         work. Using the configuration redirect might be the best option for a
