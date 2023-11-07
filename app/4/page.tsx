@@ -13,7 +13,7 @@ export default function Page() {
       Redirecting on Vercel is easy! Please take a look at this document below. 
       https://vercel.com/docs/edge-network/redirects
 
-      <br/>
+      
 
       Static redirects would be the same for everyone and dynamic redirects are an option if you need to change the redirects based on the interaction with the site.
     </p>
