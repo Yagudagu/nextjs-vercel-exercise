@@ -6,7 +6,7 @@ export default function Home() {
       <header>
         <h1 className="text-2x1">Todos</h1>
       </header>{" "}
-      <ul>
+      <ul className="pl-4">
         <Link href="/1">Question One</Link>
         <Link href="/2">Question Two</Link>
         <Link href="/3">Question Three</Link>
