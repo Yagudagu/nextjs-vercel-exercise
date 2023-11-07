@@ -13,6 +13,11 @@ export default function Page() {
         below. https://vercel.com/docs/edge-network/redirects Static redirects
         would be the same for everyone and dynamic redirects are an option if
         you need to change the redirects based on the interaction with the site.
+        <br />
+        For dynamic redirects, Edge Middleware or Functions would provide the
+        fastest performance for redirecting, but Serverless Functions will also
+        work. Using the configuration redirect might be the best option for a
+        static redirect, or you could just use a Link in your frontend code.
       </p>
     </>
   );
